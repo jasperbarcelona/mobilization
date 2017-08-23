@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'lato';
+  src: url('../../common/fonts/Lato/Lato-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../common/fonts/Lato/Lato-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'lato-light';
+  src: url('../../common/fonts/Lato/Lato-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../common/fonts/Lato/Lato-Light.woff')  format('woff');
+}
+
+@font-face {
+  font-family: 'lato-extra-light';
+  src: url('../../common/fonts/Lato/Lato-ExtraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../common/fonts/Lato/Lato-ExtraLight.woff')  format('woff');
+}
+
+body,
+html{
+  background: #f3f3f3;
+  height: 100%;
+  width: 100%;
+  font-family: lato;
+}
+
+#mapid {
+  height: 500px;
+}
